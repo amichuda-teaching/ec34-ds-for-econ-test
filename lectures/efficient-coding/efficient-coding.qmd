@@ -1,7 +1,7 @@
 ---
 title: 'Unit 9: Efficient coding practices'
 author: "Prof. Aleksandr Michuda"
-subtitle: AEM 6850
+subtitle: "EC34: Data Science for Economists"
 format: 
     revealjs:
         scrollable: true
@@ -171,6 +171,91 @@ def f(x: int, y: dict, z: pd.DataFrame) -> pd.DataFrame:
 - Make a habit of changing the docstring when you change the code
 - The aim is come publication time, you won't need to spend that much time explaining things in the README.
     - The README should give a basic explanation of how to replicate the work, but the modules in source will get into the nitty-gritty for anyone interested.
+
+## Type Hints
+
+- Recently added to python as a way to improve code readability
+- Similar to other languages like R (with Roxygen) and statically typed languages like C++, Java, etc.
+- The idea is to specify the type of input and output of functions
+- This makes it easier to understand what a function is supposed to do
+- It also helps with IDEs and linters to catch errors before running the code
+- Example:
+```python
+def add_numbers(a: int, b: int) -> int:
+    """Adds two integers
+    Args:
+        a (int): First integer
+        b (int): Second integer
+    Returns:
+        int: Sum of the two integers
+    """
+    return a + b
+```
+
+## Type Hints
+
+- Type hints are optional in python
+- They do not enforce type checking at runtime
+- They are mainly for documentation and tooling purposes
+- You can use tools like mypy to perform static type checking based on type hints
+- They can also improve code completion and navigation in IDEs
+
+## Type Hints - Common Types
+
+-   Built-in types: `int`, `float`, `str`, `bool`, `list`, `dict`, `set`, `tuple`
+-   Collection types from `typing` module: `List`, `Dict`, `Set`, `Tuple`
+-   Optional types: `Optional[type]` (equivalent to `Union[type, None]`)
+-   Union types: `Union[type1, type2]`
+-   Any type: `Any`
+-   Callable types: `Callable[[arg1_type, arg2_type], return_type]`
+-   Custom classes: Use the class name as the type hint 
+
+## Example with Pandas DataFrame
+
+```python
+import pandas as pd
+from typing import Optional
+
+def load_data(file_path: str, delimiter: Optional[str] = ',') -> pd.DataFrame:
+    """Loads data from a CSV file into a pandas DataFrame.
+
+    Args:
+        file_path (str): The path to the CSV file.
+        delimiter (Optional[str], optional): The delimiter used in the CSV file. Defaults to ','.
+
+    Returns:
+        pd.DataFrame: The loaded DataFrame.
+    """
+    return pd.read_csv(file_path, delimiter=delimiter)
+```
+
+## What about Custom Classes and Types?
+
+-   You can use your own classes as type hints
+-   Just use the class name as the type hint
+-   Example:
+
+```python
+class Person:
+    def __init__(self, name: str, age: int):
+        self.name = name
+        self.age = age
+
+
+def greet(person: Person) -> str:
+    """Generates a greeting message for a Person.   
+    Args:
+        person (Person): The person to greet.
+    Returns:
+        str: The greeting message.
+    """
+    return f"Hello, {person.name}!"
+```
+
+## Type Hints - Limitations
+
+- In many lectures, you'll see that I don't use type hints
+- Do as I say, not as I do...
 
 ## Guiding Principles 1/2
 
@@ -510,6 +595,8 @@ real_wages_2, yields_2 = w2.clean()
 -   Constantly re-check your code runs *entirely* (not just little pieces)
 
 -   Leave "breadcrumbs" for easier debugging
+
+
 
 ## Recap
 

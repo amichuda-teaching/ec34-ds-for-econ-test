@@ -55,7 +55,7 @@ The grade from this will be the average of the grades by each individual. Extra 
 
 ## **Homework**
 
-Homework will be due a week after it is assigned. These will involve more difficult empirical exercises. You should start these early. During the weeks when there is no problem set due on Friday, please stay engaged with Moodle, as there may be activities or readings that will help solidify your understanding of the material. All homework assignments should be submitted via Moodle as a replication package (i.e. .zip file containing all code and data necessary to reproduce your results).
+Homework will be due a week after it is assigned. These will involve more difficult empirical exercises. You should start these early. All homework assignments should be submitted via Moodle as a replication package (i.e. .zip file containing all code and data necessary to reproduce your results) by the Friday of that week at 11:59pm.
 
 ## Assignments
 
@@ -99,15 +99,15 @@ Course materials can be accessed on github. We will learn how to use GitHub in t
 | 2 | Jan 26,28 | Getting started with Python 2, Imports, Numpy, loops, vectorization and parallelization 1 |  | `lectures/intro-python`, `lectures/import-and-numpy` |
 | 3 | Feb 2,4 | Imports, Numpy, loops, vectorization and parallelization 2, pandas - Cleaning and manipulating tabular data 1 |  | `lectures/import-and-numpy`, `lectures/pandas` |
 | 4 | Feb 9,11 | pandas - Cleaning and manipulating tabular data 2, Visualizing Data and Making Visualization Interactive |  | `lectures/pandas`, `lectures/visualization` |
-| 5 | Feb 16,18 | Manipulating text, Efficient coding practices | HW1 | `lectures/text-analysis`, `lectures/efficient-coding` |
-| 6 | Feb 23, 25 | Web scraping with beautiful soup and using APIs, Manipulating and visualizing spatial data with geopandas | HW1 Due | `lectures/web-scraping`, `lectures/geospatial-analysis` |
+| 5 | Feb 16,18 | Efficient coding practices; Text Analysis |  | `lectures/text-analysis`, `lectures/efficient-coding` |
+| 6 | Feb 23, 25 | Web scraping with beautiful soup and using APIs, Manipulating and visualizing spatial data with geopandas | Short Project Description | `lectures/web-scraping`, `lectures/geospatial-analysis` |
 | 7 | Mar 2,4 | Version Control, Midterm |  | `lectures/git-workflow` |
 | 8 | Mar 9,11 | Spring Break |  |  |
-| 9 | Mar 16,18 | Reproducibility, DAGs | Short Project Description | `lectures/dynamic-documents`, `lectures/dags` |
+| 9 | Mar 16,18 | Reproducibility, DAGs | HW1 Due | `lectures/dynamic-documents`, `lectures/dags` |
 | 10 | Mar 23,25 | Monte Carlo, Regression (RDD, DiD) |  | `lectures/monte-carlo`, `lectures/causal-regression` |
-| 11 | Mar 30, Apr 1 | Machine Learning | HW2 | `lectures/machine-learning` |
-| 12 | Apr 6, 8 | Neural Networks, Causal Machine Learning | HW2 Due | `lectures/neural-net`, `lectures/causal-machine-learning` |
-| 13 | Apr 13,15 | Image Analysis with open-cv, OpenAI and LLMs | HW3 | `lectures/computer-vision`, `lectures/llms` |
-| 14 | Apr 20,22 | Maximum Likelihood in Python, Special Topic (TBA) | HW3 Due | `lectures/gmm-mle` |
-| 15 | Apr 27,29 | Wrap-up; Group Presentations |  |  |
+| 11 | Mar 30, Apr 1 | Machine Learning | HW2 Due | `lectures/machine-learning` |
+| 12 | Apr 6, 8 | Neural Networks, Causal Machine Learning |  | `lectures/neural-net`, `lectures/causal-machine-learning` |
+| 13 | Apr 13,15 | Image Analysis with open-cv, OpenAI and LLMs | HW3 Due | `lectures/computer-vision`, `lectures/llms` |
+| 14 | Apr 20,22 | Maximum Likelihood in Python, Special Topic (TBA) |  | `lectures/gmm-mle` |
+| 15 | Apr 27,29 | Wrap-up; Group Presentations | HW4 Due |  |
 | 16 | TBD | Final Exam |  |  |

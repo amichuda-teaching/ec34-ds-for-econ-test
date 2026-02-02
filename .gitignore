@@ -160,3 +160,4 @@ cython_debug/
 **/data/**
 .github
 .vscode
+lectures/efficient-coding/efficient-coding_files/
