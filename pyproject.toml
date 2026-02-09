@@ -40,4 +40,5 @@ dependencies = [
     "wildboottest>=0.3.2",
     "wooldridge>=0.5.0",
     "xgboost>=3.1.2",
+    "ydata-profiling>=4.12.2",
 ]
