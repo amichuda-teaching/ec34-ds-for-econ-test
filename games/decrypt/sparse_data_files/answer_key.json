@@ -1,0 +1,44 @@
+{
+  "packet_3.csv": {
+    "group": "Group 1",
+    "message_part": "THAT",
+    "message_position": 3,
+    "puzzle_type": "puzzle_contains_where"
+  },
+  "packet_4.csv": {
+    "group": "Group 2",
+    "message_part": "THE",
+    "message_position": 1,
+    "puzzle_type": "puzzle_lower_extract"
+  },
+  "packet_6.csv": {
+    "group": "Group 3",
+    "message_part": "HAND",
+    "message_position": 2,
+    "puzzle_type": "puzzle_split_index"
+  },
+  "packet_7.csv": {
+    "group": "Group 4",
+    "message_part": "SEE",
+    "message_position": 6,
+    "puzzle_type": "puzzle_findall_join"
+  },
+  "packet_2.csv": {
+    "group": "Group 5",
+    "message_part": "YOU",
+    "message_position": 4,
+    "puzzle_type": "puzzle_regex_replace"
+  },
+  "packet_5.csv": {
+    "group": "Group 6",
+    "message_part": "I AM",
+    "message_position": 0,
+    "puzzle_type": "puzzle_strip_replace"
+  },
+  "packet_0.csv": {
+    "group": "Group 7",
+    "message_part": "CANNOT",
+    "message_position": 5,
+    "puzzle_type": "puzzle_reverse"
+  }
+}
