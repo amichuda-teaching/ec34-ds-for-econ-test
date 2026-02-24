@@ -1,6 +1,5 @@
 ---
-title: 'Unit 9: Efficient coding practices'
-author: "Prof. Aleksandr Michuda"
+title: "Unit 9: Efficient coding practices"
 subtitle: "EC34: Data Science for Economists"
 format: 
     revealjs:
