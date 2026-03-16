@@ -1,6 +1,6 @@
 # EC34 - Data Science for Economists
 
-THIS MY NEW ADDITION
+THIS MY NEW ADDITION / MAKE A DIFFERENT CHANGE
 
 Spring 2026
 
