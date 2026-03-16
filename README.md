@@ -1,5 +1,7 @@
 # EC34 - Data Science for Economists
 
+THIS MY NEW ADDITION
+
 Spring 2026
 
 M/W 1:15-2:30 Location: SCI 183
